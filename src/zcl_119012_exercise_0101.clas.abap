@@ -27,7 +27,7 @@ CLASS zcl_119012_exercise_0101 IMPLEMENTATION.
   travel_id = '1234'.
   travel_description = 'Reise nach Bali'.
   travel_begindate = '20210807'.
-  travel_begindate = '20210828'.
+  travel_enddate = '20210828'.
 
   out->write( |Nummer: | && travel_id ).
   out->write('Beschreibung:  ' && travel_description ).
