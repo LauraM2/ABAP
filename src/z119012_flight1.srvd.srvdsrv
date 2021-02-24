@@ -1,0 +1,4 @@
+@EndUserText.label: 'Flight'
+define service Z119012_Flight1 {
+  expose ZI_119012_Annotations;
+}

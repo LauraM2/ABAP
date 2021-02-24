@@ -12,7 +12,8 @@ ENDCLASS.
 
 
 
-CLASS zcl_119012_demo_0104 IMPLEMENTATION.
+CLASS ZCL_119012_DEMO_0104 IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
     DATA carrier_id TYPE /dmo/carrier_id VALUE 'BA'.
