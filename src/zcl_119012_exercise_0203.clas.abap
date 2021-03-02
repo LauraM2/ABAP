@@ -20,7 +20,6 @@ CLASS ZCL_119012_EXERCISE_0203 IMPLEMENTATION.
     DATA travels TYPE z119012_travels.
     DATA travel TYPE z119012_travel.
 
-    "corresponding nicht notwendig?
     travels = CORRESPONDING #( zcl_119000_flight=>get_all_travels(  ) ).
 
     DELETE travels WHERE description <> |Business Trip|.

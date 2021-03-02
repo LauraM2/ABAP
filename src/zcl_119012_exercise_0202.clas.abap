@@ -50,6 +50,7 @@ CLASS zcl_119012_exercise_0202 IMPLEMENTATION.
      " out->write( | { travel-travel_id } - { travel-description } - { travel-begin_date } - { travel-end_date } | ).
     "ENDLOOP.
 
+    "schöner und schneller
     out->write( travels ).
 
   ENDMETHOD.
