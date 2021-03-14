@@ -35,11 +35,12 @@ CLASS zcl_119012_exercise_0305 IMPLEMENTATION.
       out->write( |leider keine Daten gefunden| ).
     ENDIF.
 
-    "out->write( travels ). "einfacher aber zu einfach für Prüfung!
+    out->write( travels ). "einfacher aber zu einfach für Prüfung!
 
-    LOOP AT travels INTO DATA(travel).
-    out->write( | Reisezeitraum: { travel-BeginDate } - { travel-EndDate } - Beschreibung: { travel-Description } - { travel-first_name }  | ).
-    ENDLOOP.
+    "bezüglich _Customer.first_name am besten Aliasnamen vergeben
+    "LOOP AT travels INTO DATA(travel).
+    "out->write( | Reisezeitraum: { travel-BeginDate } - { travel-EndDate } - Beschreibung: { travel-Description } - Vorname: { travel-first_name }  | ).
+    "ENDLOOP.
 
   ENDMETHOD.
 ENDCLASS.
