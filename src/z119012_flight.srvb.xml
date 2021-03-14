@@ -32,6 +32,19 @@
      <BIND_TYPE_VERSION>V4</BIND_TYPE_VERSION>
      <SERVICES>
       <item>
+       <SERVICE_NAME>Z119012_Customerbooking</SERVICE_NAME>
+       <SERVICE_CONTENT>
+        <item>
+         <SERVICE_VERSION>0001</SERVICE_VERSION>
+         <SRVD_REF>
+          <URI>/sap/bc/adt/ddic/srvd/sources/z119012_customerbooking</URI>
+          <TYPE>SRVD/SRV</TYPE>
+          <NAME>Z119012_CUSTOMERBOOKING</NAME>
+         </SRVD_REF>
+        </item>
+       </SERVICE_CONTENT>
+      </item>
+      <item>
        <SERVICE_NAME>Z119012_FLIGHT1</SERVICE_NAME>
        <SERVICE_CONTENT>
         <item>

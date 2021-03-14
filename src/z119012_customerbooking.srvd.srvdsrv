@@ -1,0 +1,4 @@
+@EndUserText.label: 'Customerbooking'
+define service Z119012_Customerbooking {
+  expose ZC_119012_ConsumptionView;
+}

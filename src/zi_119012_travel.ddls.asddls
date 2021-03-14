@@ -10,7 +10,6 @@
 define view entity ZI_119012_Travel
   as select from /dmo/travel
 {
-
   key travel_id     as TravelId,
       description   as Description,
       customer_id   as CustomerId,
